@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>
+    <link rel="stylesheet" href="design10.css">
+    </head>
+
+    <body>
+    <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">MyPortfolio</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+       <!--hero section-->
+    <section id="home" class="hero">
+    <div class="hero section">
+        <!--Backgroung images-->
+        <img src="" alt="">
+        <!--Title-->
+        <h1>Welcome to My Portfolio</h1>
+        <!--Subtitle-->
+        <p>Discover my work and projects</p>
+        <!--Call to action button-->
+        <a href="#about" class="button">Explore More!!!</a>
+    </div>
+    </section>
+
+    <section id="about" class="about">
+       <!--An About Section-->
+       <div id="about-container" >
+        <!--Placeholder-->
+        <p>Tell us about Yourself</p>
+        <img src="https://via.placeholder.com/150" alt="Profile Picture"><br>
+        <label for="aboutme"></label>
+        <input type="message" id="description" row="5" placeholder="Tell Us about Yourself...." required>
+
+        <!--A short bio in a card-style layout.-->
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate web developer with a knack for creating engaging and responsive designs.</p>
+       </div>
+    </section>
+
+    <section id="projects" class="project">
+        <h2>My Projects</h2>
+        <div class="project-grids">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <img src="https://via.placeholder.com/300" alt="Project"><br>
+                <a href="#" class="button">View Project</a>
+            </div>
+<br>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <img src="https://via.placeholder.com/300" alt="Project"><br>
+                <a href="#" class="button">View Project</a>
+            </div>
+<br>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <img src="https://via.placeholder.com/300" alt="Project"><br>
+                <a href="#" class="button">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!--A Contact form-->
+    <section id="contact" class="contact">
+        <form>
+            <!--Name-->
+            <label for="fullname">FullName:</label>
+            <input type="text" id="fullname" placeholder="Enter Your Name" required> <br><br>
+            <!--Email-->
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter Your email" required><br><br>
+            <!--Subject-->
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" placeholder="Provide Subject" required><br><br>
+            <!--Message-->
+            <label for="message">Message</label>
+            <input type="text" id="message" row="5" placeholder="Enter Your Message" required><br><br>
+            <button type="submit" class="btn">Send Message</button>
+            
+     <!-- Footer -->
+     <footer>
+        <p>&copy; 2024 MyPortfolio | All Rights Reserved</p>
+    </footer>  
+            
+        </form>
+    </section>
+
+    </body>
+</html>
